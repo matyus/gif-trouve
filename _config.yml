@@ -1,8 +1,8 @@
 source: src/
 destination: build/
-title: Michael Matyus
+title: gif
 description: 🐢
-keywords:  michael matyus
+keywords:  gif
 permalink: pretty
 collections:
   books:
