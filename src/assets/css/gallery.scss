@@ -1,0 +1,60 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+main {
+  width: 20000px;
+}
+
+.piece {
+  position: relative;
+  display: inline-block;
+  margin: 100px 400px;
+  vertical-align: middle;
+
+  &:first-child {
+    margin-left: 800px;
+  }
+
+  b {
+    overflow: hidden;
+  }
+
+  :not(.frame) {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+@keyframes float-by {
+  from {
+    margin-left: 0;
+  }
+
+  to {
+    margin-left: 300px;
+  }
+}
+
+.float-by {
+  animation: float-by 130s ease-in 1s infinite reverse both running;
+}
+
+@keyframes float-in-space {
+  from {
+    transform: scale3d(2, 2, 2);
+  }
+
+  to {
+    transform: scale3d(4, 4, 4);
+  }
+}
+
+.float-in-space {
+  animation: float-in-space 10s ease-in 1s infinite both running;
+}
