@@ -10,6 +10,18 @@ main {
   width: 20000px;
 }
 
+.intro {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1.3;
+  margin: 400px 800px;
+  width: 500px;
+}
+
+blockquote {
+  font-size: .85em;
+}
+
 .piece {
   position: relative;
   display: inline-block;
@@ -42,7 +54,7 @@ main {
 }
 
 .float-by {
-  animation: float-by 130s ease-in 1s infinite reverse both running;
+  animation: float-by 30s ease-in 1s infinite reverse both running;
 }
 
 @keyframes float-in-space {
