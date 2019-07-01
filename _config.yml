@@ -1,17 +1,9 @@
 source: src/
 destination: build/
-title: gif
-description: 🐢
+title: gif trouvé (2019)
+description: an assemblage using ready-made gifs
 keywords:  gif
 permalink: pretty
-collections:
-  books:
-    output: true
-    permalink: /books/:title/
-feed:
-  collections:
-    - books
 plugins:
   - jekyll-gzip
   - jekyll-assets
-  - jekyll-last-modified-at
