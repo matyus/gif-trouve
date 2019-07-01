@@ -14,7 +14,7 @@ In the spirit of Ready-mades, the image files in this body of work are untouched
 
 ## Technical details
 
-### Getting start
+### Getting started
 
 1. Install [Jekyll](https://jekyllrb.com/)
 
@@ -26,7 +26,7 @@ bundle exec jekyll s
 
 ### Deploy
 
-This "website" currently runs on [GitHub Pages](https://help.github.com/en/articles/what-is-github-pages) so the webpage must be built into `./docs/` and then committed with a [relative url](https://stackoverflow.com/a/19173888). Please refer to the [`Makefile`](./Makefile) to see what I mean.
+This "website" currently runs on [GitHub Pages](https://help.github.com/en/articles/what-is-github-pages) so the webpage must be built into `docs/` and then committed with a [relative url](https://stackoverflow.com/a/19173888). Please refer to the [`Makefile`](./Makefile) to see what I mean.
 
 Start with a clean slate:
 
