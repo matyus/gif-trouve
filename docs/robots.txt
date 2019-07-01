@@ -1,1 +1,1 @@
-Sitemap: /git-trouve/sitemap.xml
+Sitemap: /gif-trouve/sitemap.xml
